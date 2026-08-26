@@ -1,0 +1,22 @@
+{
+  "name": "@envoisms/mcp-server",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) Server for EnvoiSMS.ma",
+  "main": "dist/index.js",
+  "bin": {
+    "envoisms-mcp": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0"
+  },
+  "license": "MIT"
+}
